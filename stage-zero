@@ -40,3 +40,15 @@ Hackbio_threonine_stage0_task = {
 ... "Programming language" : "R"
 ... }
 }
+print(Hackbio_threonine_stage0_task)
+{'threonine Leader': {'Name': 'Aspiara', 'Country': 'India', 'Email': 'aspiaraoosmin@gmail.com', 'Hobby': 'Reading', 'Discipline': 'Biochemistry Masters', 'Programming language': 'R'}, 'threonine member0': {'Name': 'Stephen', 'Country': 'Nigeria', 'Email': 'steveoye81@gmail.com', 'Hobby': 'Playing guitar', 'Discipline': 'Veterinarian', 'Programming language': 'Python'}, 'threonine member1': {'Name': 'Ogochukwu', 'Country': 'Nigeria', 'Email': 'iberiogochukwu@gmail.com', 'Hobby': 'Reading', 'Discipline': 'Optometrist', 'Programming language': 'R'}, 'threonine member2': {'Name': 'Samuel', 'Country': 'Nigeria', 'Email': 'adewumisamuel34@gmail.com', 'Hobby': 'Reading and video games', 'Discipline': 'Digital Marketer', 'Programming language': 'Python'}, 'threonine member3': {'Name': 'Tejaswi', 'Country': 'India', 'Email': 'tejaswivellugapally@gmail.com', 'Hobby': 'Innovation and Entrepreneurship', 'Discipline': 'Masters in Bioinformatics', 'Programming language': 'R'}}
+print(Hackbio_threonine_stage0_task["threonine Leader"])
+{'Name': 'Aspiara', 'Country': 'India', 'Email': 'aspiaraoosmin@gmail.com', 'Hobby': 'Reading', 'Discipline': 'Biochemistry Masters', 'Programming language': 'R'}
+>>> print(Hackbio_threonine_stage0_task["threonine member0"])
+{'Name': 'Stephen', 'Country': 'Nigeria', 'Email': 'steveoye81@gmail.com', 'Hobby': 'Playing guitar', 'Discipline': 'Veterinarian', 'Programming language': 'Python'}
+>>> print(Hackbio_threonine_stage0_task["threonine member1"])
+{'Name': 'Ogochukwu', 'Country': 'Nigeria', 'Email': 'iberiogochukwu@gmail.com', 'Hobby': 'Reading', 'Discipline': 'Optometrist', 'Programming language': 'R'}
+>>> print(Hackbio_threonine_stage0_task["threonine member2"])
+{'Name': 'Samuel', 'Country': 'Nigeria', 'Email': 'adewumisamuel34@gmail.com', 'Hobby': 'Reading and video games', 'Discipline': 'Digital Marketer', 'Programming language': 'Python'}
+>>> print(Hackbio_threonine_stage0_task["threonine member3"])
+{'Name': 'Tejaswi', 'Country': 'India', 'Email': 'tejaswivellugapally@gmail.com', 'Hobby': 'Innovation and Entrepreneurship', 'Discipline': 'Masters in Bioinformatics', 'Programming language': 'R'}
