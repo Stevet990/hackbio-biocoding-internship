@@ -1,4 +1,4 @@
-# A bried explanation of my project.
+# A brief explanation of my project.
 The project is a practice on data types: including storing, organizing and accessing informations.
 Its a python code used to create a dictionary(dict)
 Think of (dict) as a collectuon of key-value pairs; its allows one to store and retrieve data efficiently.
